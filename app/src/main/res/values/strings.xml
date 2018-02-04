@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">NotificationChannelSample</string>
+
+
+    <string name="notification_channel_message_title">Message</string>
+    <string name="notification_channel_message_description">Receive notification about new message.</string>
+    <string name="notification_channel_comment_title">Comment</string>
+    <string name="notification_channel_comment_description">Receive notification about your post or related post\'s comment.</string>
+    <string name="notification_channel_notice_title">Notice</string>
+    <string name="notification_channel_notice_description">Receive notification about our service\'s notice</string>
+
+</resources>

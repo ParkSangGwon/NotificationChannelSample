@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">NotificationChannelSample</string>
+
+
+    <string name="notification_channel_message_title">메세지</string>
+    <string name="notification_channel_message_description">새 메세지를 받으면 알림을 받습니다.</string>
+    <string name="notification_channel_comment_title">내 게시글 관련</string>
+    <string name="notification_channel_comment_description">내가 올리거나 참여한 게시글에 댓글이 달리면 알림을 받습니다.</string>
+    <string name="notification_channel_notice_title">공지사항</string>
+    <string name="notification_channel_notice_description">서비스에서 공지하는 중요한 내용에 대해 알림을 받습니다.</string>
+
+
+</resources>
