@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.btn_notice).setOnClickListener(this);
         findViewById(R.id.btn_setting_message).setOnClickListener(this);
         findViewById(R.id.btn_setting).setOnClickListener(this);
+        findViewById(R.id.btn_delete_comment).setOnClickListener(this);
 
     }
 
@@ -37,6 +38,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_setting:
                 goToNotificationSettings();
+                break;
+            case R.id.btn_delete_comment:
+                NotificationManager.deleteChannel(this, NotificationManager.Channel.COMMENT);
                 break;
         }
 

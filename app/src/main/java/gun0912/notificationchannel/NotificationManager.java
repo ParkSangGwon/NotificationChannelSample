@@ -55,6 +55,11 @@ public class NotificationManager {
         return (android.app.NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
     }
 
+    public static void deleteChannel(Context context, @Channel String channel) {
+        getManager(context).deleteNotificationChannel(channel);
+
+    }
+
     public static void sendNotification(Context context, int id, @Channel String channel, String title, String body) {
         Notification.Builder builder = new Notification.Builder(context, channel)
                 .setContentTitle(title)
